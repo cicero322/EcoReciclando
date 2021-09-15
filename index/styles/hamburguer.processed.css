@@ -1,0 +1,121 @@
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: \'Verdana\', sans-serif;
+  width: auto;
+  min-width: 330px;
+}
+
+h1 {
+  text-align: center;
+  color: #236d5e;
+}
+
+h3 {
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 20px;
+  height: auto;
+}
+
+img.mapa {
+  width: 100%;
+}
+
+input.calc {
+  background-color: white;
+  border: 1px solid #000000;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  display: inline-block;
+  max-width: 30px;
+}
+
+input[type=button] {
+  color: #f7f7f7;
+  background-color: #228B22;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+label {
+  width: 240px;
+  display: inline-block;
+  text-align: left;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: \'Arial\', sans-serif;
+}
+
+p[class=link] {
+  text-decoration: none;
+  font-size: 19px;
+  padding-bottom: 3px;
+}
+
+span {
+  color: #cfc500;
+}
+
+.container {
+  text-align: center;
+  color: #000000;
+}
+
+.gerar {
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+.loja {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+}
+
+.none {
+    cursor: not-allowed;
+}

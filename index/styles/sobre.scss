@@ -1,0 +1,84 @@
+$background: #236d5e;
+$details: white;
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+	background-color: $background;
+  font-family: \'Verdana\', sans-serif;
+   width: auto;
+  min-width: 330px;
+}
+
+img {
+  width : 300px;
+  height: auto;
+}
+
+input {
+  background-color: white;
+	border: 1px solid $details;
+  margin: 5px;
+	padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+input[type=button] {
+	color: $background;
+  background-color: $details;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: \'Arial\', sans-serif;
+}
+
+p.left {
+  text-align: left;
+}
+
+p[class=link] {
+	text-decoration: none;
+  font-size: 19px;
+	padding-bottom: 3px;
+
+}
+
+
+.container {
+  text-align: center;
+  color: $details;
+}
+
+.gerar {
+  width : 100px;
+  height: auto;
+}
+
+#title h2 {
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 12px;
+}
